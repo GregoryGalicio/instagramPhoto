@@ -25,7 +25,7 @@ body {
 }
 header{
     background: white;
-    border: 2px green solid;
+    /* border: 2px green solid; */
     margin-bottom: 25px;
     /* display: flex;
     justify-content:center;
@@ -35,11 +35,11 @@ header{
 
 .post{
     background: white;
-    border: 2px magenta solid;
+    /* border: 2px magenta solid; */
     margin-bottom: 30px;
 }
 .post div:first-child{
-    border: 2px blue solid;
+    /* border: 2px blue solid; */
     display: flex;
     justify-content: space-between;
     align-items: center;
