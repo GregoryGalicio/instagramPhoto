@@ -23,3 +23,43 @@
 body {
 	background: var(--Gray);
 }
+header{
+    background: white;
+    border: 2px green solid;
+    margin-bottom: 25px;
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+    padding: 10px;
+}
+
+.post{
+    background: white;
+    border: 2px magenta solid;
+    margin-bottom: 30px;
+}
+.post div:first-child{
+    border: 2px blue solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post div:first-child span{
+    color: var(--GrayFont);
+}
+.post img{
+    width: 100%;
+}
+.post h2, .post p{
+    padding: 10px;
+}
+.container{
+    width: 600px;
+    margin: auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid greenyellow;
+     */
+}
